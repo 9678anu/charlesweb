@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Schwab 24/7 Client Support</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(90deg, #005670 0%, #0078a8 100%);
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header img {
+      width: 150px;
+      margin-bottom: 1rem;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      background-color: #e6f0fa;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .disclaimer a {
+      color: #0078a8;
+      text-decoration: none;
+    }
+
+    .disclaimer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Content */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .section {
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+    }
+
+    .section h2 {
+      color: #005670;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #0078a8;
+      padding-bottom: 0.5rem;
+    }
+
+    .section h3 {
+      color: #0078a8;
+      font-size: 1.4rem;
+      margin: 1rem 0;
+    }
+
+    .section p {
+      margin-bottom: 1rem;
+      color: #555;
+    }
+
+    .highlight {
+      background-color: #e6f0fa;
+      padding: 1rem;
+      border-left: 5px solid #0078a8;
+      margin: 1rem 0;
+    }
+
+    .call-btn {
+      display: inline-block;
+      background-color: #0078a8;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .call-btn:hover {
+      background-color: #0078a8;
+    }
+
+    /* Fixed Call Button with Ringing Animation */
+    .fixed-call-btn {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background-color: #0078a8;
+      color: white;
+      padding: 1rem;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      animation: ring 1.5s infinite;
+    }
+
+    .fixed-call-btn:hover {
+      background-color: #0078a8;
+    }
+
+    .fixed-call-btn svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    @keyframes ring {
+      0% { transform: rotate(0deg); }
+      10% { transform: rotate(10deg); }
+      20% { transform: rotate(-10deg); }
+      30% { transform: rotate(10deg); }
+      40% { transform: rotate(-10deg); }
+      50% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #005670;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 1.8rem;
+      }
+
+      .header img {
+        width: 120px;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+
+      .section {
+        padding: 1.5rem;
+      }
+
+      .section h2 {
+        font-size: 1.5rem;
+      }
+
+      .section h3 {
+        font-size: 1.2rem;
+      }
+
+      .fixed-call-btn {
+        width: 50px;
+        height: 50px;
+      }
+
+      .fixed-call-btn svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 1.5rem;
+      }
+
+      .section {
+        padding: 1rem;
+      }
+
+      .call-btn {
+        width: 100%;
+        text-align: center;
+      }
+
+      .disclaimer {
+        font-size: 0.8rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="https://www.schwab.com/schwabweb/schwab-logo-white.svg" alt="Charles Schwab Logo">
+    <h1>Charles Schwab Client Support</h1>
+    <p>Help Center – Contact Us Anytime, 24/7</p>
+  </header>
+
+ 
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Get Help Section -->
+    <div class="section">
+      <h2>Get Help with Schwab Services</h2>
+      <p>Have questions about your Charles Schwab account or need help with investment tools? Our dedicated client service team is here to support you 24/7. Whether you're facing technical challenges, need assistance navigating your account, or want guidance on our investment products, we're committed to delivering clear, expert help—anytime you need it.</p>
+      <div class="highlight">
+        <h3>New to Schwab?</h3>
+        <p>Visit our Help Center for easy-to-follow guides, FAQs, and step-by-step instructions tailored to both new and experienced investors.</p>
+      </div>
+      <a href="tel:+1-844-761-1710" class="call-btn">Call Charles schwab Support</a>
+    </div>
+
+    <!-- Account Security Section -->
+    <div class="section">
+      <h2>Account Security & Safe Investing</h2>
+      <h3>Protecting Your Financial Data</h3>
+      <p>When you link your bank account or set up transfers with Charles Schwab, your financial information is secured using advanced encryption and data protection technologies. Our systems are designed to maintain confidentiality and safeguard your assets every step of the way.</p>
+      
+      <h3>Transaction Disputes & Account Issues</h3>
+      <p>Noticed unusual activity or need to report a problem with a trade or transfer? Our support tools and specialists are ready to help you resolve issues efficiently and transparently, ensuring your assets remain protected.</p>
+      <a href="tel:+1-844-761-1710" class="call-btn">Call Customer Charles schwab</a>
+    </div>
+
+    <!-- Fraud Monitoring Section -->
+    <div class="section">
+      <h2>24/7 Fraud Monitoring</h2>
+      <h3>Constant Protection, Real-Time Alerts</h3>
+      <p>Schwab utilizes real-time account monitoring, AI-driven fraud detection, and proactive alert systems to help identify suspicious activities. From your first login to your latest trade, your account is continuously protected.</p>
+      <p>Our dedicated fraud investigation team is available around the clock to respond quickly when potential threats are detected.</p>
+      
+      <h3>Cutting-Edge Security Technology</h3>
+      <p><strong>Proactive Risk Management & Threat Prevention:</strong> Charles Schwab integrates behavioral analytics, risk scoring, and fraud-prevention technologies to secure your investments and account access.</p>
+      <p><strong>Secure Connections & Verified Access:</strong> We use industry-standard TLS encryption, secure sign-in options, and multi-factor authentication to protect your sessions from start to finish.</p>
+      <a href="tel:+1-844-761-1710" class="call-btn">Need help? call Customer support</a>
+    </div>
+
+    <!-- Why Choose Schwab Section -->
+    <div class="section">
+      <h2>Why Choose Schwab Support?</h2>
+      <p>At Charles Schwab, we’re committed to your financial well-being. We uphold industry-leading security standards, offer expert guidance, and provide transparent communication to help you manage your investments with confidence.</p>
+      <p>With our continuous improvements in technology and dedicated support teams, your experience is always secure, seamless, and centered around your financial goals.</p>
+      <a href="tel:+1-844-761-1710" class="call-btn">Call charles schwab help support</a>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+      <h2>Need Assistance?</h2>
+      <p>Before using our services, please review our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+      <p>For direct support, visit our Help Center or call to speak with a client support representative.</p>
+      <a href="tel:+1-844-761-1710" class="call-btn">Call charles help-desk support</a>
+    </div>
+
+    <!-- Fixed Call Button with White Icon -->
+    <a href="tel:+1-844-761-1710" class="fixed-call-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+        <path d="M6.62 10.79a15.77 15.77 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.27 11.27 0 003.49.56 1 1 0 011 1V20a1 1 0 01-1 1A18 18 0 013 6a1 1 0 011-1h3.36a1 1 0 011 1 11.27 11.27 0 00.56 3.49 1 1 0 01-.21 1.11l-2.2 2.2z"/>
+      </svg>
+    </a>
+  </div>
+   <!-- Disclaimer -->
+   <div class="disclaimer">
+    <p><strong>Disclaimer:</strong> Shop New AVS is an independent support provider and online resource offering general information about financial platforms such as Charles Schwab. While we sell genuine financial software and related tools, we are not directly affiliated with or endorsed by Charles Schwab & Co., Inc., or any other official financial institution.</p>
+    <p>Official products and services may also be available through the official <a href="#">Charles Schwab website</a> or its registered representatives.</p>
+    <p>Recent updates to Schwab’s client policies have prompted updates to our payment and refund processes. For full details, please see our <a href="#">Payment & Refund Policy</a>.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 All rights reserved.</p>
+  </footer>
+</body>
+</html>
